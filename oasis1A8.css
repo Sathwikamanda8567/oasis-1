@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+.bg-container {
+    height: 125vh;
+    background-size: cover;
+    background-image: url("https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676006139/resort-homepage_imq2iv.jpg");
+}
+
+#navstyle {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: "Josefin Sans", Sans-Serif;
+}
+
+.register a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #FFDFB5;
+    border-radius: 8px;
+    border-width: 0px;
+
+}
+
+#nav1 {
+    color: black;
+    font-family: "roboto";
+    font-size: 20px;
+
+}
+
+#nav2 {
+    color: black;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+#nav3 {
+    color: black;
+    font-family: "roboto";
+}
+
+#nav4 {
+    color: black;
+    font-family: "roboto";
+}
+
+#nav5 {
+    color: black;
+    font-family: "roboto";
+}
+
+.title {
+    padding-left: 15px;
+    padding-top: 400px;
+    font-size: 60px;
+    font-family: "Josefin Sans", Sans-Serif;
+    color: white;
+
+}
+
+.span1 {
+    color: #FFDFB5;
+
+}
+
+.span10 {
+    color: #FFDFB5;
+    text-decoration-line: overline;
+}
+
+
+.s2 {
+    text-decoration: overline;
+    text-decoration-color: #FFDFB5;
+    color: white;
+}
+
+.dis {
+
+    font-family: "Josefin Sans", Sans-Serif;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.button {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    border-width: 0px;
+    color: black;
+    background-color: #FFDFB5;
+    margin-left: 15px;
+
+}
+
+
+.favourite-places-bg-container {
+    background-color: #FFDFB5;
+    height: 120vh;
+    background-size: cover;
+    padding: 24px;
+}
+
+.favourite-places-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Josefin Sans", Sans-Serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.explore-menu-section {
+    background-color: #FFDFB5;
+}
+
+.menu-section-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.wrapper {
+    background-color: #FFDFB5;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .box {
+    background: #fff;
+    width: calc(33% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box i.quote {
+    font-size: 20px;
+    color: #FFDFB5;
+}
+
+.wrapper .box .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box .info .name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.box .info .job {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFDFB5;
+}
+
+.box .info .stars {
+    margin-top: 2px;
+}
+
+.box .info .stars i {
+    color: #FFDFB5;
+}
+
+.box .content .image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: #FFDFB5;
+    border-radius: 50%;
+}
+
+.content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.box:hover .content .image img {
+    border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+    .wrapper .box {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 702px) {
+    .wrapper .box {
+        width: 100%;
+    }
+}
+
+.main-heading {
+    color: #FFDFB5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hr-line {
+    background-color: #FFDFB5;
+}
+
+.icon2 {
+    color: #FFDFB5;
+}
+
+.parawhite {
+    color: #FFDFB5;
+}
+
+.text {
+    color: #FFDFB5;
+
+}
+
+.size {
+    font-size: 10px;
+}
+
+.color {
+    background-color: #80ccff;
+    width: 100%;
+    padding: 20px;
+    font-family: Roboto;
+}
+
+.image {
+    background-size: cover;
+    width: 100%;
+}
+
+.white-box {
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.textcolor {
+    color: #808080;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.para {
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.length {
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: black;
+    font-family: "Josefin Sans", Sans-Serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #FFDFB5;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: black;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: black;
+}
+
+.footer-section-mail-id {
+    color: #FFDFB5;
+    font-family: "Josefin Sans", Sans-Serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #FFDFB5;
+    font-family: "Josefin Sans", Sans-Serif;
+    font-size: 14px;
+}

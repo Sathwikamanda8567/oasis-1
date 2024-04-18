@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7b0056d014.js" crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis 1</title>
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navstyle">
+            <a class="navbar-brand logo" href="#">Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link mr-3" href="#" id="navItem1">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="#sectionfav-place" id="navItem2">Hill Stations</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link mr-3" href="#exploreMenuSection" id="navItem3">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link mr-3" href="#testimonials" id="navItem4">Feedbacks</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link mr-3" href="#followUsSection" id="navItem5">Contact</a>
+                    </li>
+                </ul>
+                <div class="register d-none  d-md-block">
+                    <a href="#">Register</a>
+                </div>
+            </div>
+
+        </nav>
+        <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+            <div class="text-center">
+                <h1 class="title">Take a <span class="span1">Break..</span></h1><br>
+                <h1 class="dis"><span class="s2">Local</span> <span class="span10">Travel</span><span class="s2">Agency</span></h1>
+            </div>
+        </div>
+        <button class="button">Book your Trip</button>
+    </div>
+    <div id="sectionfav-place">
+        <div class="favourite-places-bg-container">
+            <h1 class="favourite-places-heading">Hill Station</h1>
+            <div class="shadow favourite-place-card-container d-flex flex-row" onclick="display('sectiondetailed-view')">
+                <div>
+                    <h1 class="favourite-place-card-heading">Munnar</h1>
+                    <p class="favourite-place-card-description">
+                        Munnar is famous for its amazing magnificence developed from the green carpets made of lushes, manors, and timberlands spread crosswise over slopes, valleys, and knolls.
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676026777/WhatsApp_Image_2023-02-10_at_4.27.36_PM_mizeon.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="shadow favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Wayanad</h1>
+                    <p class="favourite-place-card-description">
+                        Wayanad is often called as the green paradise in God’s own country “Kerala”. It is a hill station, 700 meters to 2000 meters above sea level, in northern part of Kerala with the mist clad peaks.
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676026791/WhatsApp_Image_2023-02-10_at_4.27.39_PM_pz83wn.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="shadow favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Thekkady</h1>
+                    <p class="favourite-place-card-description">
+                        Thekkady (Idukki district) is a town near Periyar National Park, an important tourist attraction in the Kerala state of India. The name Thekkady is derived from the word "thekku" which means teak
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676026801/WhatsApp_Image_2023-02-10_at_4.27.39_PM_1_w1f3ed.jpg" class="favourite-place-card-image" />
+            </div>
+            <div class="shadow favourite-place-card-container d-flex flex-row">
+                <div>
+                    <h1 class="favourite-place-card-heading">Idukki</h1>
+                    <p class="favourite-place-card-description">
+                        The most famous attraction of Idukki is the 650 feet long and 550 feet high arch dam that lies across the Kuravan Kurathi Mountain, which is the biggest in the country.
+
+
+                    </p>
+                </div>
+                <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676026810/WhatsApp_Image_2023-02-10_at_4.27.39_PM_2_iefqo3.jpg" class="favourite-place-card-image" />
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionhome-page')">
+                back
+            </button>
+        </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Hotel Facilities</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676030009/WhatsApp_Image_2023-02-10_at_5.19.43_PM_krwgrg.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Banquite</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676030057/WhatsApp_Image_2023-02-10_at_5.19.44_PM_tfnulv.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Pool</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676029993/WhatsApp_Image_2023-02-10_at_5.19.42_PM_naleza.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Bar</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676030020/WhatsApp_Image_2023-02-10_at_5.19.43_PM_1_cfc58x.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Fitness</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676030594/WhatsApp_Image_2023-02-10_at_5.32.47_PM_xqtrhv.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Sauna & Steam bath</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://res.cloudinary.com/ccbp-nxtwave/image/upload/v1676030064/WhatsApp_Image_2023-02-10_at_5.19.44_PM_1_hnnbgn.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mini restaurant</h1>
+                        <a href="" class="menu-item-link">
+                            View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="testimonials">
+        <div class="col-12">
+            <h1 class="menu-section-heading">Feedbacks</h1>
+        </div>
+        <div class="wrapper">
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>The best hotel I’ve ever been privileged enough to stay at. Gorgeous building, and it only gets more breathtaking when you walk in. High quality rooms (there was even a tv by the shower), and high quality service. </p>
+                <div class="content">
+                    <div class="info">
+                        <div class="name">Azem</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>They were extremely accommodating and allowed us to check in early at like 10am. We got to hotel super early and I didn’t wanna wait. So this was a big plus. The sevice was exceptional as well</p>
+                <div class="info">
+                    <div class="name">Riya</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-quote-left quote"></i>
+                <p>They were extremely accommodating and allowed us to check in early at like 10am. We got to hotel super early and I didn’t wanna wait. So this was a big plus. The sevice was exceptional as well</p>
+                <div class="info">
+                    <div class="name">Riya</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="logo">Travel</h1>
+                    <h1 class="footer-section-mail-id">letsTravel.com</h1>
+                    <p class="footer-section-address">
+                        5A9 Rest karo, Kerala, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
